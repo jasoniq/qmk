@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  qmk_cli:
+    image: ghcr.io/qmk/qmk_cli:latest
+    container_name: qmk_cli
+    volumes:
+      - ./qmk_firmware:/qmk_firmware
+    working_dir: /qmk_firmware
+    stdin_open: true
+    tty: true
