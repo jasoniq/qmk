@@ -9,6 +9,9 @@ A custom fork also works, as long as it's cloned into teh `qmk_firmware` directo
 
 ```
 git clone https://github.com/qmk/qmk_firmware qmk_firmware
+cd qmk_firmware
+qmk setup
+cd ..
 ```
 
 ## Usage
